@@ -15,7 +15,7 @@ Neste relatório, descrevo o processo que segui para configurar e analisar o có
 
 ### 2. Clonagem do Exemplo de Aplicativo .NET Core
 - Clonei um exemplo de aplicativo .NET Core do GitHub utilizando o comando `git clone`.
-![Git Clone](caminho/para/sua/captura_de_tela1.png)
+![Git Clone](./assets/photo1.jpeg)
 
 ### 3. Execução do SonarQube no Docker
 - Iniciei um contêiner Docker com o SonarQube utilizando o comando `docker run`.
