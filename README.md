@@ -20,16 +20,18 @@ Neste relatório, descrevo o processo que segui para configurar e analisar o có
 ### 3. Execução do SonarQube no Docker
 - Iniciei um contêiner Docker com o SonarQube utilizando o comando `docker run`.
 - Acessei o SonarQube pelo navegador e alterei a senha padrão.
-![Contêiner DOcker](caminho/para/sua/captura_de_tela1.png)
+![Contêiner DOcker](./assets/photo2.png)
 
 ### 4. Instalação e Configuração do SonarScanner para .NET Core
 - Baixei o SonarScanner do GitHub e configurei as variáveis de ambiente `PATH`.
 - Instalei o SonarScanner para .NET Core utilizando o comando `dotnet tool install`.
-![SonarScanner](caminho/para/sua/captura_de_tela1.png)
+![SonarScanner](./assets/photo2.png)
 
 ### 5. Análise de Código com o SonarScanner
 - Iniciei a análise de código com o SonarScanner utilizando os comandos `dotnet sonarscanner begin`, `dotnet build` e `dotnet sonarscanner end`.
-![Análise do código](caminho/para/sua/captura_de_tela1.png)
+![Análise do código](./assets/photo4.png)
+![Análise do código](./assets/photo3.png)
+![Análise do código](./assets/photo5.png)
 
 ### 6. Visualização dos Resultados no SonarQube
 - Acessei o SonarQube pelo navegador e visualizei os resultados da análise de código.
