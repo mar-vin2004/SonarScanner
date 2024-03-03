@@ -20,27 +20,26 @@ Neste relatório, descrevo o processo que segui para configurar e analisar o có
 ### 3. Execução do SonarQube no Docker
 - Iniciei um contêiner Docker com o SonarQube utilizando o comando `docker run`.
 - Acessei o SonarQube pelo navegador e alterei a senha padrão.
-![Contêiner DOcker](./assets/photo2.png)
+![Contêiner DOcker](./assets/photo5.png)
 
 ### 4. Instalação e Configuração do SonarScanner para .NET Core
 - Baixei o SonarScanner do GitHub e configurei as variáveis de ambiente `PATH`.
 - Instalei o SonarScanner para .NET Core utilizando o comando `dotnet tool install`.
-![SonarScanner](./assets/photo2.png)
+![SonarScanner](./assets/photo5.png)
 
 ### 5. Análise de Código com o SonarScanner
 - Iniciei a análise de código com o SonarScanner utilizando os comandos `dotnet sonarscanner begin`, `dotnet build` e `dotnet sonarscanner end`.
 ![Análise do código](./assets/photo4.png)
 ![Análise do código](./assets/photo3.png)
-![Análise do código](./assets/photo5.png)
+![Análise do código](./assets/photo2.png)
 
 ### 6. Visualização dos Resultados no SonarQube
 - Acessei o SonarQube pelo navegador e visualizei os resultados da análise de código.
-  ![Página inicial do SonarQube](caminho/para/sua/captura_de_tela1.png)
-  ![Métricas de qualidade do código](caminho/para/sua/captura_de_tela2.png)
+  ![Página inicial do SonarQube](./assets/photo6.jpeg)
+  ![Métricas de qualidade do código](./assets/photo7.jpeg)
 
 ### 7. Personalização da Configuração do SonarQube (Opcional)
 - Explorei as opções de personalização do SonarQube, como adicionar regras personalizadas ou excluir determinados arquivos da análise.
-  ![Configurações do SonarQube](caminho/para/sua/captura_de_tela3.png)
 
 ## Conclusão
 Durante esta atividade, aprendi a configurar e analisar o código utilizando SonarQube, Docker e .NET Core. Com isso, compreendi a importância da qualidade e segurança do código em projetos de desenvolvimento de software. Além disso, pude perceber como ferramentas como o SonarQube podem auxiliar na identificação de problemas de código e na melhoria contínua da qualidade do software. Também aprendi a utilizar o Docker para facilitar a execução de aplicativos em diferentes ambientes e a integrar o SonarQube à minha pipeline de desenvolvimento.
